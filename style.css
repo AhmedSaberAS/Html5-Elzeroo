@@ -1,0 +1,128 @@
+/* Start Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(22, 66, 10,.4);
+}
+/* End Global */
+
+/* Start Header */
+.main {
+    background-color: #143A47;
+    padding: 20px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 40px;  
+    margin: auo ;
+    color: azure;
+}
+
+.main h1 span {
+    font-weight: 200;
+    font-weight: bolder;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* End Header */
+
+/* Start Nav */
+
+.nav-r {
+    background-color: azure;
+    padding: 10px;
+}
+
+.nav-r ul {
+    text-align: center;
+}
+
+.nav-r ul li{
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.nav-r ul li:last-child {
+    border-right: none;
+}
+
+.nav-r ul li:hover {
+    cursor: pointer;
+}
+
+.nav-r ul li::after {
+    display: block;
+    content: " ";
+    background-color: #808000;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-r ul li:hover::after , .nav-r ul li:first-child::after {
+    width: 100%;
+}
+
+
+/* End Nav /*
+
+/* Start Container */
+
+/* Start Article */
+.container article {
+    border: 0.2px solid #656564;
+    color: azure;
+    border-radius: 3px;
+    padding: 1px;
+    margin: 10px;
+    max-width: 60%;
+}
+
+.container article header {
+    background-color: #143A47;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.container article header p {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.container article section {
+    padding: 10px;
+    background-color: azure;
+    color: blueviolet;
+}
+
+/* Start Article */
+
+/* End Container */
+
+/* Start Footer */
+
+footer {
+    background-color: #143A47;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    bottom: 2%;
+    border-bottom: 1px solid azure;
+    border-top: 1px solid azure;
+}
+
+/* End Footer */
+
+
+
+
+
